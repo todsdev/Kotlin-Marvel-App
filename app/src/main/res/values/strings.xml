@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Marvel</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_one_character">Search one character</string>
+    <string name="nothing_here">Nothing here</string>
+    <string name="name">Name</string>
+    <string name="content_description">Content description, Content description, Content description, Content description.</string>
+    <string name="comics">Comics</string>
+    <string name="marvel">Marvel</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="empty_description">This character does not contain description.</string>
+    <string name="an_error_occurred">An error occurred</string>
+    <string name="empty_comic_list">Comics for the current character is not available</string>
+    <string name="favorite_successfully">Favorite successfully</string>
+    <string name="close_dialog">Close</string>
+    <string name="deleted_character">Favorite character deleted successfully</string>
+    <string name="yes">Yes</string>
+    <string name="sure_delete">Do you really want to remove this character from your favorite list?</string>
+    <string name="delete_favorite_title">Delete favorite</string>
+</resources>
