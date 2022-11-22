@@ -38,6 +38,7 @@
     <dimen name="item_character_padding">@dimen/size_8</dimen>
     <dimen name="item_character_image_width">@dimen/size_0</dimen>
     <dimen name="item_character_image_height">@dimen/size_200</dimen>
+    <dimen name="item_character_image_margin_top">@dimen/size_8</dimen>
     <dimen name="item_character_title_margin_top">@dimen/size_8</dimen>
     <dimen name="item_character_title_text_size">@dimen/text_size_16</dimen>
     <dimen name="item_character_description_text_size">@dimen/text_size_16</dimen>
