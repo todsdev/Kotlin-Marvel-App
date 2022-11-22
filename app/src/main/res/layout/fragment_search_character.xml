@@ -10,9 +10,9 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tvInputLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/fragment_search_text_input_width"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:layout_margin="@dimen/fragment_search_character_margin"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:boxStrokeColor="@color/white"
@@ -35,10 +35,10 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvSearchCharacter"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="8dp"
-        android:paddingVertical="12dp"
+        android:layout_width="@dimen/fragment_search_recycler_view_width_height"
+        android:layout_height="@dimen/fragment_search_recycler_view_width_height"
+        android:layout_marginTop="@dimen/fragment_search_character_margin"
+        android:paddingVertical="@dimen/fragment_search_recycler_view_padding_vertical"
         android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

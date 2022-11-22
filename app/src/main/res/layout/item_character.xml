@@ -5,23 +5,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
-    app:cardCornerRadius="5dp"
-    app:cardMaxElevation="2dp"
+    android:layout_margin="@dimen/item_character_margin"
+    app:cardCornerRadius="@dimen/item_character_corner_radius"
+    app:cardMaxElevation="@dimen/item_character_max_elevation"
     android:backgroundTint="@color/black"
     app:strokeColor="@color/white"
-    app:strokeWidth="1dp">
+    app:strokeWidth="@dimen/item_character_stroke_width">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp">
+        android:padding="@dimen/item_character_padding">
 
         <ImageView
             android:id="@+id/imgCharacter"
-            android:layout_width="0dp"
-            android:layout_height="200dp"
-            android:layout_marginTop="4dp"
+            android:layout_width="@dimen/item_character_image_width"
+            android:layout_height="@dimen/item_character_image_height"
+            android:layout_marginTop="@dimen/item_character_image_margin_top"
             android:contentDescription="@string/app_name"
             android:scaleType="centerCrop"
             app:layout_constraintEnd_toEndOf="parent"
@@ -34,22 +34,22 @@
             style="@style/TextAppearance.MaterialComponents.Subtitle1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/item_character_title_margin_top"
             android:text="@string/name"
             android:textColor="@color/white"
-            android:textSize="18sp"
+            android:textSize="@dimen/item_character_title_text_size"
             app:layout_constraintStart_toStartOf="@+id/imgCharacter"
             app:layout_constraintTop_toBottomOf="@+id/imgCharacter" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tvDescriptionCharacter"
             style="@style/TextAppearance.MaterialComponents.Caption"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/item_character_description_width"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/item_character_description_margin_top"
             android:text="@string/content_description"
             android:textAlignment="inherit"
-            android:textSize="16sp"
+            android:textSize="@dimen/item_character_description_text_size"
             android:textColor="@color/white"
             app:layout_constraintStart_toStartOf="@+id/tvNameCharacter"
             app:layout_constraintTop_toBottomOf="@+id/tvNameCharacter" />

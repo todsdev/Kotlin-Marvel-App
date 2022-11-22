@@ -5,22 +5,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
-    app:cardCornerRadius="5dp"
-    app:cardMaxElevation="2dp"
+    android:layout_margin="@dimen/item_comic_margin"
+    app:cardCornerRadius="@dimen/item_comic_corner_radius"
+    app:cardMaxElevation="@dimen/item_comic_max_elevation"
     android:backgroundTint="@color/black"
     app:strokeColor="@color/white"
-    app:strokeWidth="1dp">
+    app:strokeWidth="@dimen/item_comic_stroke_width">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp">
+        android:padding="@dimen/item_comic_padding">
         <ImageView
             android:id="@+id/imgComic"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/item_comic_image_width"
             android:scaleType="centerCrop"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/item_comic_image_height"
             android:contentDescription="@string/app_name"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -32,23 +32,23 @@
             style="@style/TextAppearance.MaterialComponents.Subtitle1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginStart="@dimen/item_comic_title_margin_start_top"
+            android:layout_marginTop="@dimen/item_comic_title_margin_start_top"
             android:text="@string/name"
             android:textColor="@color/white"
-            android:textSize="18sp"
+            android:textSize="@dimen/item_comic_title_text_size"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imgComic" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tvDescriptionComic"
             style="@style/TextAppearance.MaterialComponents.Caption"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/item_comic_description_width"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="@dimen/item_comic_description_margin_top"
             android:text="@string/content_description"
             android:textAlignment="inherit"
-            android:textSize="16sp"
+            android:textSize="@dimen/item_comic_description_text_size"
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
