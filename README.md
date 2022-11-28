@@ -94,6 +94,7 @@ This class is responsible to provide for the fragment that extends from *BaseFra
 >- [OkHTTP](https://square.github.io/okhttp/)
 >- [Navigation Components](https://developer.android.com/guide/navigation)
 >- [Hilt](https://dagger.dev/hilt/)
+>- [Marvel API](https://developer.marvel.com)
 
 ---
 
